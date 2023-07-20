@@ -10,8 +10,17 @@
 
 =========================================================
 
-* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+/* Estilo para el texto */
+.ptext {
+color:#C45F90 ;
+position: absolute;
+right: 1px;
+font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+
+/*The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 */
+
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,200i,300,300i,400,400i,600,600i,700,700i,900,900i&display=swap");
 :root {
   --blue: #79A9F5;
