@@ -1,0 +1,109 @@
+// Import variables and base styles
+@import 'variables';
+@import 'animations';
+@import 'header';
+@import 'theme-toggle';
+
+// Global styles
+body {
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  transition: background-color var(--transition-speed) var(--transition-ease),
+              color var(--transition-speed) var(--transition-ease);
+}
+
+// Add reveal classes to sections
+.about-section,
+.resume-section,
+.portfolio-section,
+.contact-section {
+  @extend .reveal;
+  @extend .reveal--up;
+}
+
+// Modern card styles
+.card {
+  background: var(--bg-primary);
+  border: none;
+  border-radius: var(--border-radius-lg);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: all var(--transition-speed) var(--transition-ease);
+  overflow: hidden;
+  
+  &:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-header {
+    background: none;
+    border-bottom: 2px solid var(--secondary-color);
+    padding: var(--spacing-md);
+  }
+  
+  .card-body {
+    padding: var(--spacing-md);
+  }
+}
+
+// Update text colors
+.text-primary {
+  color: var(--primary-color) !important;
+}
+
+.text-secondary {
+  color: var(--secondary-color) !important;
+}
+
+// Modern button styles
+.btn {
+  border-radius: var(--border-radius-md);
+  padding: 0.75rem 1.5rem;
+  transition: all var(--transition-speed) var(--transition-ease);
+  
+  &-primary {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+    
+    &:hover {
+      background-color: darken(var(--primary-color), 10%);
+      border-color: darken(var(--primary-color), 10%);
+      transform: translateY(-2px);
+    }
+  }
+  
+  &-outline-primary {
+    color: var(--primary-color);
+    border-color: var(--primary-color);
+    
+    &:hover {
+      background-color: var(--primary-color);
+      color: white;
+      transform: translateY(-2px);
+    }
+  }
+}
+
+// Social icons update
+.social-icons {
+  .social-item {
+    margin: 0 var(--spacing-xs);
+    
+    .social-link {
+      width: 40px;
+      height: 40px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 50%;
+      background: var(--primary-color);
+      color: white !important;
+      transition: all var(--transition-speed) var(--transition-ease);
+      
+      &:hover {
+        background: var(--accent-color);
+        transform: translateY(-3px);
+      }
+    }
+  }
+} 

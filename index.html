@@ -1,20 +1,662 @@
-<!-- Portfolio section -->
-<div class="portfolio-content">
-    <h3 class="portfolio-title">
-        <span class="highlight">Dashboard</span> de 
-        <span class="accent">Desempeño Financiero</span> de 
-        <span class="highlight">Empresas</span> del Paraguay
-    </h3>
-    <!-- ... existing content ... -->
-</div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-WVWN6WWJ');</script>
+    <!-- End Google Tag Manager -->
 
-<!-- Other portfolio item -->
-<div class="portfolio-content">
-    <h3 class="portfolio-title">
-        Proyecto <span class="highlight">Smart</span> 
-        <span class="accent">Mart</span>
-    </h3>
-    <!-- ... existing content ... -->
-</div>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Enzo Borjas - Data Engineer specializing in Azure Cloud, Databricks, and end-to-end data solutions. Expert in data architecture, cloud computing, and business intelligence.">
+    <meta name="keywords" content="Enzo Borjas, Data Engineer, Azure Cloud, Databricks, PySpark, Data Architecture, Business Intelligence, Power BI, Data Analytics, Cloud Computing">
+    <meta name="author" content="Enzo Borjas">
+    <meta property="og:title" content="Enzo Borjas - Data Engineer | Cloud Solutions Architect">
+    <meta property="og:description" content="Professional portfolio of Enzo Borjas, a Data Engineer specializing in Azure Cloud solutions and data architecture.">
+    <meta property="og:image" content="assets/imgs/avatar.jpg">
+    <meta property="og:url" content="https://enzoborjas.com">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://enzoborjas.com">
+    
+    <title>Enzo Borjas - Data Engineer | Cloud Solutions Architect</title>
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="assets/imgs/favicon.png">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Themify Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/lykmapipo/themify-icons@0.1.2/css/themify-icons.css">
+    <!-- Bootstrap + main styles -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+    
+    <!-- ApexCharts -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/apexcharts@3.41.0/dist/apexcharts.css">
 
-// ... existing code ... 
+    <!-- Schema.org markup for Google+ -->
+    <script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "Person",
+        "name": "Enzo Borjas",
+        "jobTitle": "Data Engineer",
+        "image": "assets/imgs/avatar.jpg",
+        "description": "Data Engineer specializing in Azure Cloud, Databricks, and end-to-end data solutions",
+        "url": "https://enzoborjas.com",
+        "sameAs": [
+            "https://www.linkedin.com/in/enzoborjas"
+        ]
+    }
+    </script>
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WVWN6WWJ"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+    <header class="header" role="banner">
+        <div class="container">
+            <ul class="social-icons pt-3" aria-label="Social Media Links">
+                <li class="social-item"><a class="social-link" href="https://www.linkedin.com/in/enzoborjas" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn Profile"><i class="ti-linkedin" aria-hidden="true"></i></a></li>
+                <li class="social-item"><a class="social-link" href="https://api.whatsapp.com/send?phone=595984172851" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp Contact"><i class="ti-mobile" aria-hidden="true"></i></a></li>
+            </ul>  
+            <div class="header-content">
+                <h4 class="header-subtitle">Hello, I am</h4>
+                <h1 class="header-title">Enzo Borjas</h1>
+                <h6 class="header-mono">Data Specialist</h6>
+                <a href="https://drive.google.com/drive/folders/1-opupROrQZ7ZCv0FQ-h2sWzllF9RX8Cq?usp=sharing" target="_blank" rel="noopener noreferrer" class="btn btn-primary" aria-label="Download Resume">
+                    <i class="ti-printer pr-2" aria-hidden="true"></i>Print Resume
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-white" data-spy="affix" data-offset-top="510" role="navigation">
+        <div class="container">
+            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse mt-sm-20 navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a href="#home" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#resume" class="nav-link">Resume</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav brand">
+                    <li class="brand-txt">
+                        <h5 class="brand-title">Enzo Borjas</h5>
+                        <div class="brand-subtitle">Data Specialist</div>
+                    </li>
+                </ul>
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a href="#impact" class="nav-link">Impact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#portfolio" class="nav-link">Portfolio</a>
+                    </li>
+                    <li class="nav-item last-item">
+                        <a href="#contact" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container-fluid">
+        <div id="about" class="row about-section">
+            <div class="col-lg-4 about-card">
+                <h3 class="font-weight-light">Who am I ?</h3>
+                <span class="line mb-5"></span>
+                <h5 class="mb-3">A Data Engineer</h5>
+                <p class="mt-20">Data Engineer specializing in Azure Cloud, Databricks, and end-to-end data solutions. Expert in data architecture, cloud computing, and business intelligence.</p>
+                <a href="https://drive.google.com/drive/folders/1-opupROrQZ7ZCv0FQ-h2sWzllF9RX8Cq?usp=sharing" target="_blank" class="btn btn-outline-danger">Download My CV</a>
+            </div>
+            <div class="col-lg-4 about-card">
+                <h3 class="font-weight-light">Personal Info</h3>
+                <span class="line mb-5"></span>
+                <ul class="mt40 info list-unstyled">
+                    <li><span>Email</span> : bi.enzoborjas@gmail.com</li>
+                    <li><span>Phone</span> : +(595) 984 172 851</li>
+                    <li><span>Address</span> : Asunción, Paraguay</li>
+                </ul>
+            </div>
+            <div class="col-lg-4 about-card">
+                <h3 class="font-weight-light">My Expertise</h3>
+                <span class="line mb-5"></span>
+                <div class="row">
+                    <div class="col-1 text-danger pt-1"><i class="ti-cloud icon-lg"></i></div>
+                    <div class="col-10 ml-auto mr-3">
+                        <h6>Cloud Architecture & Data Engineering</h6>
+                        <p class="subtitle">I design and implement scalable data architectures on Azure Cloud, specializing in Databricks, Fabric, and end-to-end data solutions.</p>
+                        <hr>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-1 text-danger pt-1"><i class="ti-dashboard icon-lg"></i></div>
+                    <div class="col-10 ml-auto mr-3">
+                        <h6>Data Analytics & Visualization</h6>
+                        <p class="subtitle">I create impactful data visualizations using modern tools like Power BI, ApexCharts, and ggplot, transforming complex data into actionable insights.</p>
+                        <hr>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-1 text-danger pt-1"><i class="ti-server icon-lg"></i></div>
+                    <div class="col-10 ml-auto mr-3">
+                        <h6>Advanced Data Processing</h6>
+                        <p class="subtitle">Expert in PySpark, Databricks, and Azure services for large-scale data processing and ETL workflows.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section class="section reveal reveal--up" id="resume">
+        <div class="container">
+            <h2 class="section-title mb-4 text-center">My Resume</h2>
+            <div class="row">
+                <div class="col-12 mb-4">
+                    <div class="resume-item p-4">
+                        <h3 class="font-weight-bold mb-3">Expertise</h3>
+                        <div class="mb-4">
+                            <h4><strong>Data Engineer</strong></h4>
+                            <p class="text-muted mb-1"><strong>iData Global</strong> | May 2024 - Present</p>
+                            <p class="small">Leading data engineering initiatives with a focus on cloud computing and scalable data infrastructure. Key responsibilities include:
+                            <ul class="small">
+                                <li>Designing and implementing end-to-end data architectures on Azure Cloud, leveraging services like Databricks, Fabric, and Azure Data Factory.</li>
+                                <li>Developing optimized ETL/ELT processes using PySpark and modern data engineering practices.</li>
+                                <li>Creating robust data models and pipelines that enable efficient analysis and business intelligence.</li>
+                                <li>Implementing data governance and security best practices in cloud environments.</li>
+                                <li>Optimizing performance through advanced techniques in distributed computing.</li>
+                                <li>Leading technical architecture decisions and providing solutions for complex data challenges.</li>
+                            </ul></p>
+                        </div>
+                        <div class="mb-4">
+                            <h4><strong>Data Engineer & BI Specialist</strong></h4>
+                            <p class="text-muted mb-1"><strong>Paracel</strong> | August 2023 - April 2024</p>
+                            <p class="small">Led the design and implementation of a modern data architecture based on Azure Cloud and Databricks. Key achievements:
+                            <ul class="small">
+                                <li>Architected and implemented a cloud-based data platform using Azure services and Databricks.</li>
+                                <li>Developed end-to-end data pipelines for forestry and operational analytics.</li>
+                                <li>Created interactive dashboards integrating multiple data sources using Power BI and SAP Analytics Cloud.</li>
+                                <li>Optimized data workflows reducing processing time by 80%.</li>
+                                <li>Collaborated with IT teams to ensure robust security and governance standards.</li>
+                            </ul></p>
+                        </div>
+                        <div class="mb-4">
+                            <h4><strong>Business Intelligence Consultant</strong></h4>
+                            <p class="text-muted mb-1"><strong>Familiar Seguros S.A.</strong> | March 2024 - Present</p>
+                            <p class="small">Working on the income statement, technical cube, financial cube, and commercial cube. Key achievements include: SQL Query Optimization, Update Automation, Cloud Budget Integration, Gateway Configuration, Review of DAX Formulas, and Staff Training.</p>
+                        </div>
+                        <div class="mb-4">
+                            <h4><strong>Business Intelligence Analyst</strong></h4>
+                            <p class="text-muted mb-1"><strong>SYSNEO & Universidad Central del Paraguay</strong> | August 2023 - August 2024</p>
+                            <p class="small">Led a competitiveness analysis using Revalida data in Brazil, applying web scraping techniques to collect government information. Conducted comparisons between UCP and other universities to evaluate institutional performance. Implemented a centralized reporting system in Power BI Service. Designed commercial dashboards for monitoring enrollments, grades, attendance, and delinquency.</p>
+                        </div>
+                        <div>
+                            <h4><strong>Data Analyst</strong></h4>
+                            <p class="text-muted mb-1"><strong>Interpan</strong> | September 2022 - July 2023</p>
+                            <p class="small">Transitioned from intern to Data Analyst. Led creation of sales reports (MSSQL database) in Power BI. Designed sales dashboards with detailed rankings and customizable filters, contributing to resource optimization. Conducted customer census for deep descriptive analysis of logistical behavior, identifying key patterns.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-6 mb-4">
+                    <div class="resume-item p-4">
+                        <h3 class="font-weight-bold mb-3">Technical Skills</h3>
+                        <ul class="list-unstyled">
+                            <li class="mb-2"><p class="mb-1">Azure Cloud & Databricks <span class="float-right text-muted">95%</span></p><div class="progress" style="height: 5px;"><div class="progress-bar" role="progressbar" style="width: 95%;" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div></div></li>
+                            <li class="mb-2"><p class="mb-1">PySpark & Data Engineering <span class="float-right text-muted">90%</span></p><div class="progress" style="height: 5px;"><div class="progress-bar" role="progressbar" style="width: 90%;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div></div></li>
+                            <li class="mb-2"><p class="mb-1">Power BI & Data Visualization <span class="float-right text-muted">95%</span></p><div class="progress" style="height: 5px;"><div class="progress-bar" role="progressbar" style="width: 95%;" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div></div></li>
+                            <li class="mb-2"><p class="mb-1">SQL & Database Design <span class="float-right text-muted">90%</span></p><div class="progress" style="height: 5px;"><div class="progress-bar" role="progressbar" style="width: 90%;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div></div></li>
+                            <li class="mb-2"><p class="mb-1">Data Architecture <span class="float-right text-muted">85%</span></p><div class="progress" style="height: 5px;"><div class="progress-bar" role="progressbar" style="width: 85%;" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div></div></li>
+                            <li class="mb-2"><p class="mb-1">Python & Analytics Libraries <span class="float-right text-muted">85%</span></p><div class="progress" style="height: 5px;"><div class="progress-bar" role="progressbar" style="width: 85%;" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div></div></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-lg-6 mb-4">
+                    <div class="resume-item p-4">
+                        <h3 class="font-weight-bold mb-3">Languages</h3>
+                        <div class="languages-grid">
+                            <div class="language-card">
+                                <div class="language-icon">
+                                    <i class="ti-world"></i>
+                                </div>
+                                <h4>Spanish</h4>
+                                <span class="language-level native">Native</span>
+                            </div>
+                            <div class="language-card">
+                                <div class="language-icon">
+                                    <i class="ti-world"></i>
+                                </div>
+                                <h4>English</h4>
+                                <span class="language-level advanced">B2 Level</span>
+                            </div>
+                            <div class="language-card">
+                                <div class="language-icon">
+                                    <i class="ti-world"></i>
+                                </div>
+                                <h4>Portuguese</h4>
+                                <span class="language-level intermediate">Intermediate</span>
+                            </div>
+                            <div class="language-card">
+                                <div class="language-icon">
+                                    <i class="ti-world"></i>
+                                </div>
+                                <h4>Guarani</h4>
+                                <span class="language-level intermediate">Intermediate</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+             <div class="text-center mt-5">
+                <a href="#contact" class="btn btn-primary btn-lg">I Am Available For Freelance <i class="ti-angle-double-right ml-2"></i> Hire me</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="section reveal reveal--up" id="impact">
+        <div class="container">
+            <h2 class="section-title text-center">Transforming Data into Value</h2>
+            <p class="section-subtitle text-center">From Manual Reports to Real-Time Insights</p>
+
+            <div class="row mb-5">
+                <div class="col-lg-4 mb-4">
+                    <div class="impact-card">
+                        <div class="impact-header">
+                            <i class="ti-time impact-icon"></i>
+                            <h3>Before</h3>
+                        </div>
+                        <ul class="impact-list">
+                            <li><i class="ti-close text-danger"></i> 5 analysts working on reports</li>
+                            <li><i class="ti-close text-danger"></i> 40+ hours monthly in manual work</li>
+                            <li><i class="ti-close text-danger"></i> Outdated information</li>
+                            <li><i class="ti-close text-danger"></i> Error-prone process</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4 mb-4">
+                    <div class="impact-card impact-card-highlight">
+                        <div class="impact-header">
+                            <i class="ti-pulse impact-icon"></i>
+                            <h3>Transformation</h3>
+                        </div>
+                        <div class="impact-metrics">
+                            <div class="metric">
+                                <span class="metric-value">1,920+</span>
+                                <span class="metric-label">Hours Saved Yearly</span>
+                            </div>
+                            <div class="metric">
+                                <span class="metric-value">90%</span>
+                                <span class="metric-label">Process Optimization</span>
+                            </div>
+                            <div class="metric">
+                                <span class="metric-value">100%</span>
+                                <span class="metric-label">Data Accuracy</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 mb-4">
+                    <div class="impact-card">
+                        <div class="impact-header">
+                            <i class="ti-check-box impact-icon"></i>
+                            <h3>After</h3>
+                        </div>
+                        <ul class="impact-list">
+                            <li><i class="ti-check text-success"></i> Fully automated reporting</li>
+                            <li><i class="ti-check text-success"></i> Real-time updates</li>
+                            <li><i class="ti-check text-success"></i> Zero manual hours</li>
+                            <li><i class="ti-check text-success"></i> 99.9% accuracy</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-12 mb-5">
+                    <div class="impact-chart-card">
+                        <h4 class="text-center mb-4">Efficiency Transformation Over Time</h4>
+                        <div id="transformationChart"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row impact-stats">
+                <div class="col-md-4 mb-4">
+                    <div class="stat-card">
+                        <div class="stat-icon">
+                            <i class="ti-timer"></i>
+                        </div>
+                        <h4>From Days to Minutes</h4>
+                        <p>Report generation time reduced by 99%</p>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="stat-card">
+                        <div class="stat-icon">
+                            <i class="ti-dashboard"></i>
+                        </div>
+                        <h4>Real-Time Decisions</h4>
+                        <p>Instant access to critical insights</p>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="stat-card">
+                        <div class="stat-icon">
+                            <i class="ti-money"></i>
+                        </div>
+                        <h4>Resource Optimization</h4>
+                        <p>90% reduction in operational costs</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section reveal reveal--up" id="portfolio">
+        <div class="container">
+            <h2 class="section-title text-center">My Portfolio</h2>
+            <p class="section-subtitle text-center mb-5">A show case of my side projects on Power BI </p>
+            <div class="row">
+                <div class="col-lg-12 mb-5 portfolio-item-fullwidth">
+                    <h4 class="text-center mb-3 portfolio-title">
+                        <span class="highlight">Dashboard</span> de 
+                        <span class="accent">Desempeño Financiero</span> de 
+                        <span class="highlight">Empresas</span> del Paraguay
+                    </h4>
+                    <div class="iframe-container embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" title="Desempeño Financiero Empresas de el Paraguay" src="https://app.powerbi.com/view?r=eyJrIjoiZjZlN2VmOWQtMDkyZi00OTk5LWFlYjQtMDU0N2JjZGU2NmQ2IiwidCI6ImYxYWUyMmQxLWM0ZjItNGViOS1hYmM2LWY4NTI0ZDg4Mzc3YyIsImMiOjl9" frameborder="0" allowFullScreen="true"></iframe>
+                    </div>
+                </div>
+                <div class="col-lg-12 mb-5 portfolio-item-fullwidth">
+                    <h4 class="text-center mb-3 portfolio-title">
+                        <span class="highlight">Análisis</span> de 
+                        <span class="accent">Ventas</span> 
+                        <span class="highlight">Netas</span>
+                    </h4>
+                    <div class="iframe-container embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" title="Análisis de Ventas Netas" src="https://app.powerbi.com/view?r=eyJrIjoiMzNlOTc1MDctZmU1Yy00ZTExLTg0MWEtM2NlY2QxMGEyYzQwIiwidCI6ImYxYWUyMmQxLWM0ZjItNGViOS1hYmM2LWY4NTI0ZDg4Mzc3YyIsImMiOjl9" frameborder="0" allowFullScreen="true"></iframe>
+                    </div>
+                </div>
+                <div class="col-lg-12 mb-5 portfolio-item-fullwidth">
+                    <h4 class="text-center mb-3 portfolio-title">
+                        Proyecto <span class="highlight">Smart</span> 
+                        <span class="accent">Mart</span>
+                    </h4>
+                    <div class="iframe-container embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" title="Dash personal" src="https://app.powerbi.com/view?r=eyJrIjoiM2RiYTBkYmMtYjliMC00NjE0LTgwYTAtZDJjOTk2ZjhlMTY1IiwidCI6ImYxYWUyMmQxLWM0ZjItNGViOS1hYmM2LWY4NTI0ZDg4Mzc3YyIsImMiOjl9" frameborder="0" allowFullScreen="true"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section contact-section">
+        <div class="container">
+            <h2 class="section-title text-center">Get in Touch</h2>
+            <p class="section-subtitle text-center">I'm available for freelance projects and job opportunities. Feel free to contact me directly.</p>
+            
+            <div class="contact-main-buttons">
+                <a href="https://api.whatsapp.com/send?phone=595984172851" class="btn btn-whatsapp" target="_blank" rel="noopener noreferrer">
+                    <i class="ti-mobile"></i>
+                    Chat on WhatsApp
+                </a>
+                <a href="mailto:bi.enzoborjas@gmail.com" class="btn btn-email">
+                    <i class="ti-email"></i>
+                    Send an Email
+                </a>
+            </div>
+
+            <div class="contact-grid">
+                <div class="contact-card">
+                    <i class="ti-briefcase contact-icon"></i>
+                    <h3 class="contact-title">Discuss BI Project</h3>
+                    <p class="contact-text">Let's talk about your business intelligence needs and how I can help.</p>
+                    <a href="https://api.whatsapp.com/send?phone=595984172851" class="contact-link" target="_blank" rel="noopener noreferrer">
+                        Start Discussion <i class="ti-arrow-right"></i>
+                    </a>
+                </div>
+
+                <div class="contact-card">
+                    <i class="ti-stats-up contact-icon"></i>
+                    <h3 class="contact-title">Data Needs</h3>
+                    <p class="contact-text">Need help with data analysis, visualization, or ETL processes?</p>
+                    <a href="mailto:bi.enzoborjas@gmail.com" class="contact-link">
+                        Send Requirements <i class="ti-arrow-right"></i>
+                    </a>
+                </div>
+
+                <div class="contact-card">
+                    <i class="ti-money contact-icon"></i>
+                    <h3 class="contact-title">Request a Quote</h3>
+                    <p class="contact-text">Get a detailed quote for your project or consulting needs.</p>
+                    <a href="https://api.whatsapp.com/send?phone=595984172851" class="contact-link" target="_blank" rel="noopener noreferrer">
+                        Get Quote <i class="ti-arrow-right"></i>
+                    </a>
+                </div>
+
+                <div class="contact-card">
+                    <i class="ti-calendar contact-icon"></i>
+                    <h3 class="contact-title">Schedule Meeting</h3>
+                    <p class="contact-text">Book a time to discuss your project in detail.</p>
+                    <a href="mailto:bi.enzoborjas@gmail.com?subject=Meeting Request" class="contact-link">
+                        Book Time <i class="ti-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="text-center mt-5 py-4 border-top border-secondary">
+        <p class="small text-muted mb-0">&copy; <script>document.write(new Date().getFullYear())</script> Enzo Borjas. All rights reserved.</p>
+        <p class="small text-muted mb-0">Inspired bymeyawo <a href="https://themewagon.com/themes/meyawo-free-responsive-html5-personal-portfolio-website-template/" target="_blank" rel="nofollow">Meyawo Theme</a>. Special Thanks to DC.</p>
+    </footer>
+
+    <!-- Core -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- ApexCharts -->
+    <script src="https://cdn.jsdelivr.net/npm/apexcharts@3.41.0/dist/apexcharts.min.js"></script>
+    <!-- Theme -->
+    <script src="assets/js/main.js"></script>
+    
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            function getChartOptions(isDark) {
+                // Definir colores base
+                const colors = {
+                    text: isDark ? '#FFFFFF' : '#4A5568',
+                    grid: isDark ? 'rgba(255, 255, 255, 0.1)' : 'rgba(74, 85, 104, 0.1)',
+                    primary: '#FF521B',
+                    secondary: '#FC9E4F'
+                };
+
+                return {
+                    series: [{
+                        name: 'Manual Hours',
+                        type: 'line',
+                        data: [40, 38, 35, 28, 22, 15, 8, 5, 2, 0, 0, 0]
+                    }, {
+                        name: 'Efficiency Score',
+                        type: 'area',
+                        data: [30, 35, 40, 55, 65, 75, 85, 90, 95, 98, 99, 100]
+                    }],
+                    chart: {
+                        height: 350,
+                        type: 'line',
+                        animations: {
+                            enabled: true,
+                            easing: 'easeinout',
+                            speed: 800
+                        },
+                        toolbar: {
+                            show: false
+                        },
+                        foreColor: colors.text,
+                        background: 'transparent'
+                    },
+                    stroke: {
+                        curve: 'smooth',
+                        width: [3, 2]
+                    },
+                    fill: {
+                        type: ['solid', 'gradient'],
+                        gradient: {
+                            shadeIntensity: 0.5,
+                            opacityFrom: 0.5,
+                            opacityTo: 0.1,
+                            stops: [0, 90, 100]
+                        }
+                    },
+                    markers: {
+                        size: 6,
+                        strokeWidth: 2,
+                        hover: {
+                            size: 8
+                        },
+                        colors: [colors.primary, colors.secondary],
+                        strokeColors: colors.text
+                    },
+                    colors: [colors.primary, colors.secondary],
+                    xaxis: {
+                        categories: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'],
+                        labels: {
+                            style: {
+                                colors: new Array(12).fill(isDark ? '#FFFFFF' : '#4A5568'),
+                                fontSize: '12px',
+                                fontWeight: '500'
+                            }
+                        },
+                        axisBorder: {
+                            show: true,
+                            color: colors.grid
+                        },
+                        axisTicks: {
+                            show: true,
+                            color: colors.grid
+                        },
+                        crosshairs: {
+                            stroke: {
+                                color: colors.text,
+                                width: 1,
+                                dashArray: 5
+                            }
+                        }
+                    },
+                    yaxis: [{
+                        title: {
+                            text: 'Manual Hours',
+                            style: {
+                                color: isDark ? '#FFFFFF' : '#4A5568',
+                                fontWeight: '500'
+                            }
+                        },
+                        labels: {
+                            style: {
+                                colors: isDark ? '#FFFFFF' : '#4A5568',
+                                fontWeight: '500'
+                            }
+                        }
+                    }, {
+                        opposite: true,
+                        title: {
+                            text: 'Efficiency Score',
+                            style: {
+                                color: isDark ? '#FFFFFF' : '#4A5568',
+                                fontWeight: '500'
+                            }
+                        },
+                        labels: {
+                            style: {
+                                colors: isDark ? '#FFFFFF' : '#4A5568',
+                                fontWeight: '500'
+                            }
+                        }
+                    }],
+                    grid: {
+                        show: true,
+                        borderColor: colors.grid,
+                        strokeDashArray: 5,
+                        position: 'back',
+                        xaxis: {
+                            lines: {
+                                show: true
+                            }
+                        },
+                        yaxis: {
+                            lines: {
+                                show: true
+                            }
+                        },
+                        padding: {
+                            top: 0,
+                            right: 0,
+                            bottom: 0,
+                            left: 0
+                        }
+                    },
+                    legend: {
+                        labels: {
+                            colors: colors.text,
+                            useSeriesColors: false
+                        }
+                    },
+                    tooltip: {
+                        theme: isDark ? 'dark' : 'light',
+                        style: {
+                            fontSize: '12px'
+                        },
+                        x: {
+                            show: true
+                        },
+                        y: {
+                            formatter: function(value) {
+                                return value.toFixed(0);
+                            }
+                        }
+                    },
+                    dataLabels: {
+                        enabled: false
+                    }
+                };
+            }
+
+            const isDark = document.body.getAttribute('data-theme') === 'dark';
+            var chart = new ApexCharts(document.querySelector("#transformationChart"), getChartOptions(isDark));
+            chart.render();
+
+            // Update chart on theme change
+            const body = document.body;
+            const observer = new MutationObserver((mutations) => {
+                mutations.forEach((mutation) => {
+                    if (mutation.attributeName === 'data-theme') {
+                        const isDark = body.getAttribute('data-theme') === 'dark';
+                        chart.updateOptions(getChartOptions(isDark));
+                    }
+                });
+            });
+
+            observer.observe(body, {
+                attributes: true
+            });
+        });
+    </script>
+</body>
+</html> 
