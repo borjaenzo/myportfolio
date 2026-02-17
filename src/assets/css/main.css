@@ -878,6 +878,37 @@ body[data-theme="dark"] .navbar-scrolled .navbar-toggler-icon {
   line-height: 1.6;
 }
 
+.section-compact {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.highlight-card {
+  background-color: var(--bg-secondary);
+  border: 1px solid var(--border-color);
+  border-radius: var(--border-radius-lg);
+  padding: var(--spacing-lg);
+  height: 100%;
+  transition: all var(--transition-speed) var(--transition-ease);
+}
+
+.highlight-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1);
+}
+
+.highlight-card h3 {
+  font-size: 1.25rem;
+  color: var(--accent-color);
+  margin-bottom: var(--spacing-sm);
+  font-weight: 700;
+}
+
+.highlight-card p {
+  margin-bottom: 0;
+  color: var(--text-secondary);
+}
+
 /* Refined About Section */
 #about .about-card {
   background-color: var(--bg-secondary);
@@ -938,6 +969,13 @@ body[data-theme="dark"] .navbar-scrolled .navbar-toggler-icon {
 
 .resume-item h4 {
     font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--accent-color);
+    margin-bottom: var(--spacing-xs);
+}
+
+.resume-item .resume-subtitle {
+    font-size: 1.15rem;
     font-weight: 600;
     color: var(--accent-color);
     margin-bottom: var(--spacing-xs);
